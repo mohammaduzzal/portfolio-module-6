@@ -6,9 +6,11 @@
     font-variation-settings:
       "width" 100;}
     
+    
   /* shared style */
       .text-primary{color:#FD6E0A ;}
   
+      .secondary-background{background-color:#FFF8F3 ;}
   /*color of portfolio,blog  */
       .dark-2{color: #474747;}
   
@@ -91,7 +93,9 @@
   
   /* main style (element selector name tag in css) */
   main{
-      max-width: 1180px; margin: 0px auto;}
+      max-width: 1180px; margin: 0px auto;
+      margin-top: 130px;
+    margin-bottom: 130px;}
   
   
   
@@ -100,6 +104,60 @@
       border-radius: 10px;
       padding: 150px 210px;
       text-align: center;
-      margin-top: 130px;
+      
   }
+.about-items{
+    justify-content:space-between;
+    display: flex;
+}
+
+/* what i do style */
+.wid-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.wid-experience{
+    color: #757575;
+    font-size: 18px;
+    font-weight: regular;
+    text-align: center;
+}
+/* child style start */
+.java{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+}
+ .skill{
+    color: #757575;
+   font-size: 16px;
+   font-weight: regular;
+   
+ }
+ .dad{
+    display: flex;
+    gap: 10px;
+ }
+ .child{
+    padding: 30px;
+    box-shadow: 0px 6px 50px #000000;
+    border-radius: 5px;
+ }
+
+
+
+
+ 
+
+   
+ 
+ 
+
+
+
   
+
+
+
