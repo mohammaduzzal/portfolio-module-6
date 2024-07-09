@@ -1,0 +1,105 @@
+/* copied for uncle g */
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "width" 100;}
+    
+  /* shared style */
+      .text-primary{color:#FD6E0A ;}
+  
+  /*color of portfolio,blog  */
+      .dark-2{color: #474747;}
+  
+      /* hire me btn style */
+      .btn-primary{background-color: #FD6E0A;
+       font-weight: bold;
+       font-size: 20px;
+       color: white;
+       padding: 18px 35px;
+       border-radius: 5px;
+      border: none;}
+  /* about me section title and description */
+     .section-title{
+      font-size: 35px;
+      font-weight: bold;
+      color: #181818;
+     }
+     .banner-description{
+      font-size: 18px;
+      font-weight: 400px;
+      color: #757575;
+     }
+  
+  /* nav style (show us in one line) */
+  nav{
+      display: flex;
+       align-items: center;
+        justify-content: space-between;
+        margin:0px 200px;}
+  
+      /* abba k doing manage sit beside(port,blog,hire me) */
+      nav ul{display: flex;
+      align-items: center;}
+  
+      /* mary taken a size */
+  .nav-title{
+  font-weight: 100px;
+  font-size: 69px;}
+  /* dots remove */
+  nav ul li{list-style:none; margin: 55px;}
+  
+  /* under line remove */
+  nav ul a{text-decoration: none;
+  font-size: 20px;}
+  
+  .developer-picture{
+      background-image: url(../images/developer.png) , url(../images/header_bg.png);
+      background-repeat: no-repeat;
+      background-position: bottom left, bottom right;
+  }
+  
+  /* banner style(at a time onk class mara jay great a dark-2 ) */
+  
+  /* banner means abba */
+  .banner{display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 150px; }             
+  
+  .banner-text{max-width: 580px;}
+  
+  .banner-great{
+      font-size: 45px;
+      font-weight: 400px;}
+  
+  
+  .banner-title{
+      font-size: 85px;
+      font-weight: bold;}
+  
+  
+  .banner-description{
+      font-size: 18px;
+      font-weight: 400px;
+      color: #757575;}
+  
+  .banner-profile-picture{
+      width: 584px;
+      height: 676px;
+  }
+  
+  /* main style (element selector name tag in css) */
+  main{
+      max-width: 1180px; margin: 0px auto;}
+  
+  
+  
+  /* about styles */
+  .about{
+      border-radius: 10px;
+      padding: 150px 210px;
+      text-align: center;
+      margin-top: 130px;
+  }
+  
