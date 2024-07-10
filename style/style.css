@@ -235,22 +235,66 @@ main {
     border: 100px;
 
 }
-.resume .hr{
-margin: 30px 5px;
+
+.resume .hr {
+    margin: 30px 5px;
 }
-.btn-cv{
+
+.btn-cv {
     text-align: center;
     margin-top: 20px;
 }
- 
+
 
 /* the end (cv part) */
- 
- 
 
+/* start footer style */
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
 
+.footer-info {
+    color: #474747;
+    font-size: 16px;
+    font-weight: regular;
+}
 
-  
+.footer-dad {
+    display: flex;
+    justify-content: center;
+}
 
+.footer-child {
+    padding: 130px;
+}
 
+/* dancing with form */
+form input[type="name"] {
+    width: 460px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+}
 
+form input[type="email"] {
+    width: 460px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-submit {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    width: 461px;
+    height: 172px;
+    border-radius: 5px;
+    border: none;
+}
